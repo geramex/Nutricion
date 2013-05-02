@@ -40,6 +40,8 @@
 		E19022261717CD580035F01E /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19022251717CD580035F01E /* newViewController.m */; };
 		E1B174D31732087A00F5DAD4 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B174D21732087A00F5DAD4 /* MyCell.m */; };
 		E1BFE9211731DD1800E8096B /* tabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFE9201731DD1800E8096B /* tabViewController.m */; };
+		E1C699171732F82F005EF6F5 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C699161732F82F005EF6F5 /* DEViewController.m */; };
+		E1C6991A1732F849005EF6F5 /* MyCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C699191732F849005EF6F5 /* MyCell1.m */; };
 		E1CEFD0F171E371B004F9B98 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD0E171E371B004F9B98 /* MessageUI.framework */; };
 		E1CEFD13171E5780004F9B98 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD12171E577F004F9B98 /* Accounts.framework */; };
 		E1CEFD15171E5792004F9B98 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD14171E5792004F9B98 /* Social.framework */; };
@@ -110,6 +112,10 @@
 		E1B174D21732087A00F5DAD4 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		E1BFE91F1731DD1800E8096B /* tabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabViewController.h; sourceTree = "<group>"; };
 		E1BFE9201731DD1800E8096B /* tabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabViewController.m; sourceTree = "<group>"; };
+		E1C699151732F82F005EF6F5 /* DEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEViewController.h; sourceTree = "<group>"; };
+		E1C699161732F82F005EF6F5 /* DEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEViewController.m; sourceTree = "<group>"; };
+		E1C699181732F849005EF6F5 /* MyCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell1.h; sourceTree = "<group>"; };
+		E1C699191732F849005EF6F5 /* MyCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell1.m; sourceTree = "<group>"; };
 		E1CEFD0E171E371B004F9B98 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		E1CEFD12171E577F004F9B98 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		E1CEFD14171E5792004F9B98 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -195,7 +201,11 @@
 		E19021F51717CCAB0035F01E = {
 			isa = PBXGroup;
 			children = (
+				E1C699181732F849005EF6F5 /* MyCell1.h */,
+				E1C699191732F849005EF6F5 /* MyCell1.m */,
 				E1B174D11732087A00F5DAD4 /* MyCell.h */,
+				E1C699151732F82F005EF6F5 /* DEViewController.h */,
+				E1C699161732F82F005EF6F5 /* DEViewController.m */,
 				E1B174D21732087A00F5DAD4 /* MyCell.m */,
 				E1BFE91F1731DD1800E8096B /* tabViewController.h */,
 				E1BFE9201731DD1800E8096B /* tabViewController.m */,
@@ -374,6 +384,8 @@
 				E1821BD71731B612008CD842 /* DietViewController.m in Sources */,
 				E1BFE9211731DD1800E8096B /* tabViewController.m in Sources */,
 				E1B174D31732087A00F5DAD4 /* MyCell.m in Sources */,
+				E1C699171732F82F005EF6F5 /* DEViewController.m in Sources */,
+				E1C6991A1732F849005EF6F5 /* MyCell1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,7 @@ NSString *aux,*aux1;
 
 NSString *hora1 = @"08:00";
 NSString *hora2 = @"12:00";
-NSString *hora3 = @"14:30";
+NSString *hora3 = @"14:00";
 NSString *hora4 = @"17:00";
 NSString *hora5 = @"20:00";
 
@@ -132,6 +132,7 @@ NSString *hora5 = @"20:00";
 }
 
 
+
 //table views codigo
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -144,6 +145,16 @@ NSString *hora5 = @"20:00";
     cell.hour.text = [horas objectAtIndex:indexPath.row];
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
+
+    [[NSUserDefaults standardUserDefaults] setInteger:indexPath.row forKey:@"password1"];
+    //NSLog(@"entroooooooooooooo%i",indexPath.row);
+    UIViewController *loginView = [self.storyboard instantiateViewControllerWithIdentifier:@"Info"];
+    [self presentViewController:loginView animated:YES completion:nil];
+    
+    
 }
 
 
