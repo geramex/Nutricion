@@ -64,7 +64,7 @@ int w;
 ToRead:
     jj=([[NSUserDefaults standardUserDefaults]objectForKey:@"loginStatus"]);
     firstRegister=([[NSUserDefaults standardUserDefaults]objectForKey:@"firstRegister"]);
-    
+   //rover puto
     //NSLog([[NSUserDefaults standardUserDefaults]objectForKey:@"firstRegister"]);
     
 //    if ([jj isEqualToString:@"alreadyLogin"]) {
