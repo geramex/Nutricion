@@ -21,6 +21,7 @@
 @synthesize pmCC,myTable,Navbar;
 @synthesize diet,period1,horas;
 int flag=0;
+int bflag1=0;
 NSString *aux,*aux1;
 
 NSString *hora1 = @"08:00";
@@ -28,6 +29,7 @@ NSString *hora2 = @"12:00";
 NSString *hora3 = @"14:00";
 NSString *hora4 = @"17:00";
 NSString *hora5 = @"20:00";
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,21 +43,19 @@ NSString *hora5 = @"20:00";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     horas = [NSMutableArray new];
     [horas addObject:hora1];
     [horas addObject:hora2];
     [horas addObject:hora3];
     [horas addObject:hora4];
     [horas addObject:hora5];
-    //Navbar.topItem.title = @"hola";
-    
-     NSLog(@"hola %i",flag);
+
 	// Do any additional setup after loading the view.
+    NSLog(@"%i",bflag1);
 
         period1=[PMPeriod oneDayPeriodWithDate:[NSDate date]];
     
-    if(flag==0){
+    if(flag==0 || bflag1==1){
         BOOL isPopover = YES;
         //   isPopover = NO;
         self.pmCC = [[PMCalendarController alloc] initWithThemeName:@"apple calendar"];
@@ -99,6 +99,7 @@ NSString *hora5 = @"20:00";
         
     }
     flag=1;
+    bflag1=0;
     [self presentViewController:loginView animated:YES completion:nil];
     
     
@@ -141,8 +142,17 @@ NSString *hora5 = @"20:00";
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     MyCell *cell = [tableView dequeueReusableCellWithIdentifier:@"myCell"];
+    NSString *indexString = [NSString stringWithFormat:@"Rutina %i",indexPath.row+1];
+    int sb =[[NSUserDefaults standardUserDefaults]integerForKey:@"selectedbar"];
     
-    cell.hour.text = [horas objectAtIndex:indexPath.row];
+    if (sb==1) {
+        cell.hour.text= indexString;
+    }
+    else{
+        cell.hour.text = [horas objectAtIndex:indexPath.row];
+     }
+    
+    
     
     return cell;
 }
@@ -150,8 +160,8 @@ NSString *hora5 = @"20:00";
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
 
     [[NSUserDefaults standardUserDefaults] setInteger:indexPath.row forKey:@"password1"];
-    //NSLog(@"entroooooooooooooo%i",indexPath.row);
     UIViewController *loginView = [self.storyboard instantiateViewControllerWithIdentifier:@"Info"];
+    bflag1 = [[NSUserDefaults standardUserDefaults]integerForKey:@"bflag"];
     [self presentViewController:loginView animated:YES completion:nil];
     
     

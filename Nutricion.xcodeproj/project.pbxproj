@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		CE735B311727AA0A00D6C253 /* UserMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE735B301727AA0A00D6C253 /* UserMainViewController.m */; };
 		CE78E70B172EDA9800F33123 /* ForgotPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE78E70A172EDA9800F33123 /* ForgotPassViewController.m */; };
+		E10BD4F11733743200DC97F3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10BD4F01733743200DC97F3 /* MainStoryboard.storyboard */; };
+		E10BD4F4173378B100DC97F3 /* LagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10BD4F3173378B100DC97F3 /* LagViewController.m */; };
+		E10BD4F617337E9600DC97F3 /* nariz.gif in Resources */ = {isa = PBXBuildFile; fileRef = E10BD4F517337E9600DC97F3 /* nariz.gif */; };
 		E1821B971731AA93008CD842 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1821B961731AA93008CD842 /* FacebookSDK.framework */; };
 		E1821B991731AAAB008CD842 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1821B981731AAAB008CD842 /* FacebookSDKResources.bundle */; };
 		E1821BBD1731B254008CD842 /* NSDate+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E1821BA41731B254008CD842 /* NSDate+Helpers.m */; };
@@ -35,13 +38,17 @@
 		E19022141717CCAB0035F01E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E19022131717CCAB0035F01E /* Default.png */; };
 		E19022161717CCAB0035F01E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E19022151717CCAB0035F01E /* Default@2x.png */; };
 		E19022181717CCAB0035F01E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E19022171717CCAB0035F01E /* Default-568h@2x.png */; };
-		E190221B1717CCAB0035F01E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19022191717CCAB0035F01E /* MainStoryboard.storyboard */; };
 		E190221E1717CCAB0035F01E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E190221D1717CCAB0035F01E /* ViewController.m */; };
 		E19022261717CD580035F01E /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19022251717CD580035F01E /* newViewController.m */; };
 		E1B174D31732087A00F5DAD4 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B174D21732087A00F5DAD4 /* MyCell.m */; };
 		E1BFE9211731DD1800E8096B /* tabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BFE9201731DD1800E8096B /* tabViewController.m */; };
 		E1C699171732F82F005EF6F5 /* DEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C699161732F82F005EF6F5 /* DEViewController.m */; };
 		E1C6991A1732F849005EF6F5 /* MyCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C699191732F849005EF6F5 /* MyCell1.m */; };
+		E1CD143D17336ABA0042E046 /* copa.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1CD143917336ABA0042E046 /* copa.gif */; };
+		E1CD143E17336ABA0042E046 /* correr.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1CD143A17336ABA0042E046 /* correr.gif */; };
+		E1CD143F17336ABA0042E046 /* curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = E1CD143B17336ABA0042E046 /* curl.gif */; };
+		E1CD144017336ABA0042E046 /* curl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1CD143C17336ABA0042E046 /* curl2.jpg */; };
+		E1CD144217336AD50042E046 /* lagartija.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1CD144117336AD50042E046 /* lagartija.jpg */; };
 		E1CEFD0F171E371B004F9B98 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD0E171E371B004F9B98 /* MessageUI.framework */; };
 		E1CEFD13171E5780004F9B98 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD12171E577F004F9B98 /* Accounts.framework */; };
 		E1CEFD15171E5792004F9B98 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD14171E5792004F9B98 /* Social.framework */; };
@@ -59,6 +66,10 @@
 		CE735B301727AA0A00D6C253 /* UserMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserMainViewController.m; path = ../UserMainViewController.m; sourceTree = "<group>"; };
 		CE78E709172EDA9800F33123 /* ForgotPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPassViewController.h; sourceTree = "<group>"; };
 		CE78E70A172EDA9800F33123 /* ForgotPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPassViewController.m; sourceTree = "<group>"; };
+		E10BD4F01733743200DC97F3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E10BD4F2173378B100DC97F3 /* LagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LagViewController.h; sourceTree = "<group>"; };
+		E10BD4F3173378B100DC97F3 /* LagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LagViewController.m; sourceTree = "<group>"; };
+		E10BD4F517337E9600DC97F3 /* nariz.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nariz.gif; sourceTree = "<group>"; };
 		E1821B961731AA93008CD842 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		E1821B981731AAAB008CD842 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
 		E1821BA11731B254008CD842 /* PMCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMCalendar.h; sourceTree = "<group>"; };
@@ -103,7 +114,6 @@
 		E19022131717CCAB0035F01E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E19022151717CCAB0035F01E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E19022171717CCAB0035F01E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E190221A1717CCAB0035F01E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E190221C1717CCAB0035F01E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E190221D1717CCAB0035F01E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E19022241717CD580035F01E /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
@@ -116,6 +126,11 @@
 		E1C699161732F82F005EF6F5 /* DEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEViewController.m; sourceTree = "<group>"; };
 		E1C699181732F849005EF6F5 /* MyCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell1.h; sourceTree = "<group>"; };
 		E1C699191732F849005EF6F5 /* MyCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell1.m; sourceTree = "<group>"; };
+		E1CD143917336ABA0042E046 /* copa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = copa.gif; path = ../../copa.gif; sourceTree = "<group>"; };
+		E1CD143A17336ABA0042E046 /* correr.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = correr.gif; path = ../../correr.gif; sourceTree = "<group>"; };
+		E1CD143B17336ABA0042E046 /* curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = curl.gif; path = ../../curl.gif; sourceTree = "<group>"; };
+		E1CD143C17336ABA0042E046 /* curl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = curl2.jpg; path = ../../curl2.jpg; sourceTree = "<group>"; };
+		E1CD144117336AD50042E046 /* lagartija.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lagartija.jpg; path = ../../PMCalendar/lagartija.jpg; sourceTree = "<group>"; };
 		E1CEFD0E171E371B004F9B98 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		E1CEFD12171E577F004F9B98 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		E1CEFD14171E5792004F9B98 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -201,6 +216,8 @@
 		E19021F51717CCAB0035F01E = {
 			isa = PBXGroup;
 			children = (
+				E10BD4F2173378B100DC97F3 /* LagViewController.h */,
+				E10BD4F3173378B100DC97F3 /* LagViewController.m */,
 				E1C699181732F849005EF6F5 /* MyCell1.h */,
 				E1C699191732F849005EF6F5 /* MyCell1.m */,
 				E1B174D11732087A00F5DAD4 /* MyCell.h */,
@@ -209,6 +226,7 @@
 				E1B174D21732087A00F5DAD4 /* MyCell.m */,
 				E1BFE91F1731DD1800E8096B /* tabViewController.h */,
 				E1BFE9201731DD1800E8096B /* tabViewController.m */,
+				E10BD4F01733743200DC97F3 /* MainStoryboard.storyboard */,
 				E1821BA01731B254008CD842 /* PMCalendar */,
 				E19022071717CCAB0035F01E /* Nutricion */,
 				E19022001717CCAB0035F01E /* Frameworks */,
@@ -247,7 +265,6 @@
 				E1CEFD1A171E5FB1004F9B98 /* images */,
 				E19022101717CCAB0035F01E /* AppDelegate.h */,
 				E19022111717CCAB0035F01E /* AppDelegate.m */,
-				E19022191717CCAB0035F01E /* MainStoryboard.storyboard */,
 				CE78E709172EDA9800F33123 /* ForgotPassViewController.h */,
 				CE78E70A172EDA9800F33123 /* ForgotPassViewController.m */,
 				E190221C1717CCAB0035F01E /* ViewController.h */,
@@ -281,6 +298,12 @@
 		E1CEFD1A171E5FB1004F9B98 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E10BD4F517337E9600DC97F3 /* nariz.gif */,
+				E1CD144117336AD50042E046 /* lagartija.jpg */,
+				E1CD143917336ABA0042E046 /* copa.gif */,
+				E1CD143A17336ABA0042E046 /* correr.gif */,
+				E1CD143B17336ABA0042E046 /* curl.gif */,
+				E1CD143C17336ABA0042E046 /* curl2.jpg */,
 				E1CEFD23171E6631004F9B98 /* Icon-72.png */,
 				E1CEFD1B171E5FB1004F9B98 /* action-eating.png */,
 				E1CEFD1C171E5FB1004F9B98 /* action-location.png */,
@@ -345,7 +368,6 @@
 				E19022141717CCAB0035F01E /* Default.png in Resources */,
 				E19022161717CCAB0035F01E /* Default@2x.png in Resources */,
 				E19022181717CCAB0035F01E /* Default-568h@2x.png in Resources */,
-				E190221B1717CCAB0035F01E /* MainStoryboard.storyboard in Resources */,
 				E1CEFD1F171E5FB1004F9B98 /* action-eating.png in Resources */,
 				E1CEFD20171E5FB1004F9B98 /* action-location.png in Resources */,
 				E1CEFD21171E5FB1004F9B98 /* action-people.png in Resources */,
@@ -356,6 +378,13 @@
 				E1821BC71731B254008CD842 /* background.png in Resources */,
 				E1821BC81731B254008CD842 /* background@2x.png in Resources */,
 				E1821BC91731B254008CD842 /* default.plist in Resources */,
+				E1CD143D17336ABA0042E046 /* copa.gif in Resources */,
+				E1CD143E17336ABA0042E046 /* correr.gif in Resources */,
+				E1CD143F17336ABA0042E046 /* curl.gif in Resources */,
+				E1CD144017336ABA0042E046 /* curl2.jpg in Resources */,
+				E1CD144217336AD50042E046 /* lagartija.jpg in Resources */,
+				E10BD4F11733743200DC97F3 /* MainStoryboard.storyboard in Resources */,
+				E10BD4F617337E9600DC97F3 /* nariz.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +415,7 @@
 				E1B174D31732087A00F5DAD4 /* MyCell.m in Sources */,
 				E1C699171732F82F005EF6F5 /* DEViewController.m in Sources */,
 				E1C6991A1732F849005EF6F5 /* MyCell1.m in Sources */,
+				E10BD4F4173378B100DC97F3 /* LagViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,14 +428,6 @@
 				E190220B1717CCAB0035F01E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E19022191717CCAB0035F01E /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E190221A1717CCAB0035F01E /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

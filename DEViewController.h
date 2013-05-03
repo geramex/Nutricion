@@ -13,4 +13,6 @@
 @property (strong, nonatomic) IBOutlet UINavigationItem *navBar;
 @property (strong, nonatomic) IBOutlet UITableView *myTable;
 
+@property (strong,nonatomic) NSMutableArray *dietastoti;
+
 @end

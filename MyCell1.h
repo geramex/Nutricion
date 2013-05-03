@@ -12,5 +12,7 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *image;
 @property (strong, nonatomic) IBOutlet UILabel *myLabel;
+@property (strong, nonatomic) IBOutlet UILabel *cts;
+
 
 @end
